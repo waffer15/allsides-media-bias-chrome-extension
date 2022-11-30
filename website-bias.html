@@ -1,0 +1,39 @@
+<html>
+   <style>
+      html {
+         height: fit-content;
+      }
+
+      body {
+         background: #fbfbfb;
+         min-width: 15rem;
+         max-width: 20rem;
+      }
+
+      .container {
+         display: flex;
+         flex-flow: column;
+         align-items: center;
+      }
+
+      .bias-label {
+         color: #5c5c5c;
+         padding: 1rem;
+         border-radius: 0.5rem;
+         background: #f2f2f2;
+         margin-bottom: 1rem;
+      }
+
+      .bias-image {
+         margin-bottom: 1rem;
+      }
+   </style>
+
+   <body>
+      <div class="container">
+         <div class="bias-label" id="bias-label">Loading...</div>
+         <img class="bias-image" id="bias-image" src="" />
+         <script type="module" src="website-bias.js"> </script>
+      </div>
+   </body>
+</html>

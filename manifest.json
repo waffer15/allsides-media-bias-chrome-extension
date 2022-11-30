@@ -1,0 +1,17 @@
+{
+   "manifest_version": 3,
+   "name": "AllSides Media Bias Extension",
+   "description": "Extension that displays the bias of a website you are browsing",
+   "version": "1.0",
+   "action": {
+     "default_popup": "website-bias.html",
+     "default_icon": "allsides-logo.png"
+   },
+   "web_accessible_resources": [{
+      "resources": ["bias-ratings.js"],
+      "matches": ["<all_urls>"]
+    }],
+    "permissions": [
+      "tabs"
+    ]
+ }
